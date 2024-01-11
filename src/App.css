@@ -1,0 +1,99 @@
+.navbar:hover {
+  transform: translateY(-2px);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7EBC12;
+  border-radius: 0.3em;
+}
+
+::-webkit-scrollbar {
+  width: 0.9em;
+  overflow-x: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #F2F2F2;
+  margin-block: 0.15em;
+  border-radius: 0.3em;
+}
+
+.navbar-color {
+  margin-left: -100px;
+  background-color: #ffffff !important;
+  width: 100% !important;
+  height: 60px;
+  transition: 0.6s;
+  color: black !important;
+  animation: shimmer 2.5s infinite;
+  padding-inline: -35px !important;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+  box-shadow: 0px 0px 0px 3px #F2F2F2;
+}
+
+.navbar-color2 {
+  color: #7EBC12 !important;
+  width: 460px;
+}
+
+.navbar-color3 {
+  color: black !important;
+  width: 100%;
+  /* margin-right: -200px; */
+}
+
+.navbar-color4 {
+  color: white;
+}
+
+.active1 {
+  color: #CD7E00;
+  margin-top: 20px;
+  width: 100px;
+  background: url(./templatmeo_menu_hover.jpg) center bottom no-repeat
+}
+
+.buttoon-fixed {
+  width: 10px !important;
+  height: 70px !important;
+  transition: 0.6s;
+  color: white !important;
+  animation: shimmer 2.5s infinite;
+  padding-inline: -35px !important;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.Qales {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+}
+
+.Qales:active {
+  box-shadow: 0 0 6px 1px red;
+}
+
+.color {
+  background: linear-gradient(to right, #7B24DC, #0000ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.current {
+  height: 60px;
+  width: 100px;
+  margin-top: 20px;
+  color: #B1B1B1;
+}
+.current:hover {
+  color: #cd7e00;
+  /* background: url(./templatmeo_menu_hover.jpg) center bottom no-repeat */
+}
+/* 
+City Blog Template 
+http://www.templatemo.com/preview/templatemo_309_city_blog 
+*/
